@@ -7,7 +7,7 @@ describe("The Swap first two function", function(){
 
         it("for list ['apple', 'pear', 'mango', 'banana'] it should return ['pear', 'apple', 'mango', 'banana']", function(){
 
-            let swappedList = swapFirstTwo(['apple', 'pear', 'mango', 'banana']);
+            var swappedList = swapFirstTwo(['apple', 'pear', 'mango', 'banana']);
 
             assert.deepEqual(['pear', 'apple', 'mango', 'banana'], swappedList);
             //assert.equal(7, swappedList[1]);
@@ -16,7 +16,7 @@ describe("The Swap first two function", function(){
 
         it("for list [19,56,17,8,7,9,5] it should return [56,19,17,8,7,9,5]", function(){
 
-            let swappedList = swapFirstTwo([19,56,17,8,7,9,5]);
+            var swappedList = swapFirstTwo([19,56,17,8,7,9,5]);
 
             assert.equal(56, swappedList[0]);
             assert.equal(19, swappedList[1]);
