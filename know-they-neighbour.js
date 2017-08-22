@@ -1,10 +1,14 @@
-module.exports = function(list){
-  for (var i = 0; i < list.length; i++) {
-    var firstVal =list[i];
-    var biggestValue = list[list.length - 1];
-    if (firstVal > list) {
-      biggestValue = firstVal;
+module.exports = function(list) {
+    for (var i = 0; i < list.length; i++) {
+
+        var firstV = list[i];
+
+        var nextV = list[i + 1];
+
+        if (list[i] > list[i + 1]) {
+            list[i] = list[i + 1];
+            list[i + 1] = firstV;
+        }
     }
-  }
     return list;
 }
