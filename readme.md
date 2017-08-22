@@ -13,6 +13,8 @@ Preparing the way for sort and search.
 
 Write code and unit tests for the functions below.
 
+Clone this repo and run the unit tests with `mocha`. The tests needs fixing.
+
 ### Swap first two
 
 Create a function:
